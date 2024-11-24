@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Breakpoint Indicator Demo</title>
+  </head>
+  <body>
+    <!-- Breakpoint Indicator -->
+    <div class="breakpoint-indicator"></div>
+
+    <div id="app" class="min-h-screen bg-gray-100">
+      <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-8">
+          Tailwind Breakpoint Indicator Demo
+        </h1>
+        
+        <!-- Responsive Demo Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <!-- Cards -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-2">Card 1</h2>
+            <p class="text-gray-600">Resize the window to see the breakpoint indicator update!</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-2">Card 2</h2>
+            <p class="text-gray-600">The layout changes at different breakpoints.</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-2">Card 3</h2>
+            <p class="text-gray-600">Watch how the grid adjusts responsively.</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-2">Card 4</h2>
+            <p class="text-gray-600">The breakpoint indicator helps during development!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

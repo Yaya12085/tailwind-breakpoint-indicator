@@ -1,0 +1,35 @@
+{
+  "name": "tailwind-breakpoint-indicator",
+  "version": "1.0.0",
+  "description": "A minimal Tailwind CSS plugin that displays the current breakpoint during development",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "plugin",
+    "breakpoint",
+    "responsive",
+    "development",
+    "debug"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  }
+}
