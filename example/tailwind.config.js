@@ -5,7 +5,7 @@ export default {
     extend: {},
   },
   plugins: [
-    require("tailwind-breakpoint-indicator")({
+    require("tailwindcss-breakpoint-indicator")({
       indicatorPosition: "bottom-right",
       indicatorBackground: "rgba(59, 130, 246, 1)",
       indicatorColor: "white",

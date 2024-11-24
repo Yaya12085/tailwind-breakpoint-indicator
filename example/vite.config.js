@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
 
 export default defineConfig({
   optimizeDeps: {
-    exclude: ['tailwind-breakpoint-indicator']
-  }
-})
+    exclude: ["tailwindcss-breakpoint-indicator"],
+  },
+});

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "tailwind-breakpoint-indicator": "file:.."
+    "tailwindcss-breakpoint-indicator": "file:.."
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",

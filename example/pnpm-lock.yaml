@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      tailwind-breakpoint-indicator:
+      tailwindcss-breakpoint-indicator:
         specifier: file:..
         version: file:..(tailwindcss@3.4.15)
     devDependencies:
@@ -680,7 +680,7 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwind-breakpoint-indicator@file:..:
+  tailwindcss-breakpoint-indicator@file:..:
     resolution: {directory: .., type: directory}
     peerDependencies:
       tailwindcss: ^3.0.0
@@ -1312,7 +1312,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwind-breakpoint-indicator@file:..(tailwindcss@3.4.15):
+  tailwindcss-breakpoint-indicator@file:..(tailwindcss@3.4.15):
     dependencies:
       tailwindcss: 3.4.15
 
