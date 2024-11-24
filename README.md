@@ -4,7 +4,7 @@ A minimal Tailwind CSS plugin that displays the current breakpoint during develo
 
 ## Demo
 
-https://github.com/yourusername/tailwind-breakpoint-indicator/assets/your-asset-id/demo.mp4
+https://github.com/Yaya12085/tailwind-breakpoint-indicator/assets/demo.mp4
 
 ## Installation
 
