@@ -1,7 +1,11 @@
 {
   "name": "tailwindcss-breakpoint-indicator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A minimal Tailwind CSS plugin that displays the current breakpoint during development",
+  "author": "Yaya Mohamed <yayamohamed883@gmail.com>",
+  "homepage": "https://github.com/Yaya12085/tailwind-breakpoint-indicator",
+  "repository": "https://github.com/Yaya12085/tailwind-breakpoint-indicator.git",
+  "bugs": "https://github.com/Yaya12085/tailwind-breakpoint-indicator/issues",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -23,7 +27,6 @@
     "development",
     "debug"
   ],
-  "author": "",
   "license": "MIT",
   "peerDependencies": {
     "tailwindcss": "^3.0.0"
