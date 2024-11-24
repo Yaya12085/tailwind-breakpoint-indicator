@@ -1,6 +1,6 @@
 {
-  "name": "tailwind-breakpoint-indicator",
-  "version": "1.0.0",
+  "name": "tailwindcss-breakpoint-indicator",
+  "version": "0.0.1",
   "description": "A minimal Tailwind CSS plugin that displays the current breakpoint during development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

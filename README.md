@@ -4,16 +4,16 @@ A minimal Tailwind CSS plugin that displays the current breakpoint during develo
 
 ## Demo
 
-https://github.com/Yaya12085/tailwind-breakpoint-indicator/assets/demo.mp4
+https://github.com/user-attachments/assets/b7b4e1d7-fc25-4d01-aef8-9fbc710b52c5
 
 ## Installation
 
 ```bash
-npm install tailwind-breakpoint-indicator
+npm install tailwindcss-breakpoint-indicator
 # or
-yarn add tailwind-breakpoint-indicator
+yarn add tailwindcss-breakpoint-indicator
 # or
-pnpm add tailwind-breakpoint-indicator
+pnpm add tailwindcss-breakpoint-indicator
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Add the plugin to your `tailwind.config.js`:
 ```js
 module.exports = {
   plugins: [
-    require("tailwind-breakpoint-indicator")({
+    require("tailwindcss-breakpoint-indicator")({
       // options are optional
       indicatorPosition: "bottom-right",
       indicatorBackground: "rgba(59, 130, 246, 1)",
